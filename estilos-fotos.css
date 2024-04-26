@@ -1,0 +1,33 @@
+h1 {
+    font: bold 64px Arial, sans-serif;
+    color:#050a0c;
+    text-align: center;
+    text-shadow:
+    rgba(0, 0, 0, 0.1) -1px 0,
+    rgba(0, 0, 0, 0.1) 0 -1px,
+    rgba(255, 255, 255, 0.1) 1px 0,
+    rgba(255, 255, 255, 0.1) 0 1px,
+    rgba(0, 0, 0, 0.1) -1px -1px,
+    rgba(17, 16, 16, 0.1) 1px 1px;
+  color: gold;
+  background: rgb(17, 17, 15);      }
+
+
+    .ref{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 25px;
+}
+
+
+.imagen{
+    width: 80% ;
+    height: 80%;
+    margin-bottom: 20px;
+}
+
+.contenedor{
+    display: flex;
+flex-direction: column;
+
+
+}

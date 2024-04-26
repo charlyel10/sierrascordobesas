@@ -1,0 +1,238 @@
+* {
+    margin: 0px;
+    padding: 0px;
+
+    
+
+}
+   #cabeceralogo {
+    background-image: url(Imagenes/Sierras_de_la_Provincia_de_Córdoba_\(Argentina\)_2008-09-20.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    text-decoration-color: #141416;
+    justify-content: space-between;
+    width: 96%;
+    height: 250px;
+    padding: 0% 2%;
+    
+ }
+   #cabeceralogo > div {
+    flex: 1;
+    max-width: 960px;
+    padding-top: 45px;
+   }
+   #cabeceralogo h1 {
+    font: bold 64px Arial, sans-serif;
+    color:#E7F1F5;
+    text-align: center;        
+   }
+   
+   #cabeceralogo h2{
+   text-align: right;
+   color: #E7F1F5; 
+   font-size: 40px;
+
+      }
+
+ #menuprincipal {
+    display: flex;
+    justify-content: center;
+    width: 96%;
+    height: 50px;
+    padding: 0% 2%;
+    background-color: #9FC8D9;
+    border-top: 1px solid #094660;
+    border-bottom: 1px solid #094660;
+   }
+   #menuprincipal > div {
+    flex: 1;
+    max-width: 960px;
+   }
+   #menuprincipal li {
+    display: inline-block;
+    height: 35px;
+    padding: 15px 10px 0px 10px;
+    margin-right: 5px;
+   }
+   #menuprincipal li:hover {
+    background-color: #6FACC6;
+   }
+   #menuprincipal a {
+    font: bold 18px Arial, sans-serif;
+    color: #333333;
+    text-decoration: none; 
+   }
+
+main {
+    display: flex;
+    justify-content: center;
+    width: 96%;
+    padding: 2%;
+    background-image: url("Imagenes/black-1072366_1280.jpg");
+   }
+   main > div {
+    display: flex;
+    flex: 1;
+    max-width: 960px;
+   }
+   #articulosprincipales {
+    flex: 1;
+    margin-right: 20px;
+    padding-top: 30px;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+   }
+   #infoadicional {
+    width: 280px;
+    padding: 20px;
+    background-color: #E7F1F5;
+    border-radius: 10px;
+   }
+   #infoadicional h1 {
+    font: bold 18px Arial, sans-serif;
+    color: #333333;
+    margin-bottom: 15px;
+}
+.boton{
+
+ul {
+    padding: 0;
+    list-style-type: none;
+   
+}
+
+
+
+li {
+    
+    font-size: 25px;
+    width: 8em;
+    height: 2em;
+    color: orange;
+    border-left: 0.08em solid;
+    position: relative;
+    margin-top: 0.8em;
+    margin-left: 1.8em;
+    cursor: pointer;
+}
+
+li::before,
+li::after
+ {
+    content: '';
+    position: absolute;
+    width: inherit;
+    border-left: inherit;
+    z-index: -1;
+}
+
+li::before {
+    height: 80%;
+    top: 10%;
+    left: calc(-0.15em - 0.08em * 2);
+    filter: brightness(0.8);
+}
+
+li::after {
+    height: 60%;
+    top: 20%;
+    left: calc(-0.15em * 2 - 0.08em * 3);
+    filter: brightness(0.6);
+}
+
+li span{
+    
+    position: relative;
+    height: 120%;
+    top: -10%;
+    box-sizing: border-box;
+    border: 0.08em solid;
+    background-color: #333;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: sans-serif;
+    text-transform: capitalize;
+    transform: translateX(calc(-0.15em * 3 - 0.08em * 2));
+    transition: 0.3s;
+}
+
+li:hover span {
+    transform: translateX(0.15em);
+}}
+
+
+   article {
+    position: relative;
+    padding: 0px 40px 20px 40px;
+   }
+   article time {
+    display: block;
+    position: absolute;
+    top: -5px;
+    left: -70px;
+    width: 80px;
+    padding: 15px 5px;
+    background-color: #094660;
+    box-shadow: 3px 3px 5px rgba(100, 100, 100, 0.7);
+    border-radius: 5px;
+   }
+   .numerodia {
+    font: bold 12px Verdana, sans-serif;
+    color: #FFFFFF;
+
+    text-align: center;
+   }
+   .nombredia {
+    font: 12px Verdana, sans-serif;
+    color: #FFFFFF;
+    text-align: center;
+   }
+   article h1 {
+    margin-bottom: 5px;
+    font: bold 30px Georgia, sans-serif;
+   }
+   article p {
+    font: 18px Georgia, sans-serif;
+   }
+   figure {
+    margin: 10px 0px;
+   }
+   figure img {
+    max-width: 98%;
+    padding: 1%;
+    border: 1px solid;
+   }
+   
+   #pielogo {
+    display: flex;
+    justify-content: center;
+    width: 96%;
+    padding: 2%;
+    background-color: #0F76A0;
+   }
+   #pielogo > div {
+    display: flex;
+    flex: 1;
+    max-width: 960px;
+    background-color: #9FC8D9;
+    border-radius: 10px;
+   }
+   .seccionpie {
+    flex: 1;
+    padding: 25px;
+   }
+   .seccionpie h1 {
+    font: bold 20px Arial, sans-serif;
+   }
+   .seccionpie p {
+    margin-top: 5px;
+   }
+  
+   .seccionpie a {
+    font: bold 16px Arial, sans-serif;
+    color: #666666;
+    text-decoration: none; 
+   }
