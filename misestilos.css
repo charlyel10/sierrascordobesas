@@ -6,7 +6,7 @@
 
 }
    #cabeceralogo {
-    background-image: url(Imagenes/Sierras_de_la_Provincia_de_Córdoba_\(Argentina\)_2008-09-20.jpg);
+    background-image: url(Imagenes/fotoportada.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -107,7 +107,7 @@ ul {
 
 li {
     
-    font-size: 25px;
+    font-size: 20px;
     width: 8em;
     height: 2em;
     color: orange;
@@ -204,8 +204,13 @@ li:hover span {
     max-width: 98%;
     padding: 1%;
     border: 1px solid;
+    transition: 0.5s;
+    object-fit: cover;   
    }
-   
+    img:hover{
+transform: scale(1.2);
+
+    }
    #pielogo {
     display: flex;
     justify-content: center;
@@ -236,3 +241,6 @@ li:hover span {
     color: #666666;
     text-decoration: none; 
    }
+
+
+
